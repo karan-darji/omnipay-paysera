@@ -2,6 +2,10 @@
 
 **Paysera gateway driver for the Omnipay PHP payment processing library**
 
+[![Packagist Version](https://img.shields.io/packagist/v/karan-darji/omnipay-paysera.svg)](https://packagist.org/packages/karan-darji/omnipay-paysera)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
+
+
 ## Installation
 
 Omnipay is installed via [Composer](http://getcomposer.org/). To install, require `league/omnipay` and `karan-darji/omnipay-paysera` with Composer:
