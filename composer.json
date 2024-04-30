@@ -1,0 +1,44 @@
+{
+    "name": "karan-darji/omnipay-paysera",
+    "type": "library",
+    "description": "Paysera gateway for Omnipay payment processing library",
+    "keywords": [
+        "paysera",
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "purchase"
+    ],
+    "homepage": "https://github.com/karan-darji/omnipay-paysera",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Karan Darji",
+            "email": "karan.darji@arsenaltech.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Paysera\\": "src/",
+            "Omnipay\\Paysera\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "ext-openssl": "*",
+        "omnipay/common": "^3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^3",
+        "squizlabs/php_codesniffer": "^3"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
